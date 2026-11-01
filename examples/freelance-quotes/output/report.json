@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "technical_pass",
+  "visual_review": "pending",
+  "pdf": "not_generated",
+  "source_sha256": "f6db6fc6e658c921ec70f54eb10a815e2e60cdcfdada146c905c33e4ec836615",
+  "items": [
+    {
+      "id": "Q-2026-001",
+      "calculated": {
+        "line_minor": [
+          120000,
+          108000,
+          22500
+        ],
+        "subtotal_minor": 250500,
+        "tax_minor": 25050,
+        "total_minor": 275550,
+        "policy": "Round each line to integer minor units, then tax on subtotal, ROUND_HALF_UP"
+      },
+      "html_sha256": "e67e39de9aa8b14db3bc0cfd28911b59e95f5a006552ae6b164f27e85a156a6b"
+    },
+    {
+      "id": "Q-2026-002",
+      "calculated": {
+        "line_minor": [
+          90000,
+          30000
+        ],
+        "subtotal_minor": 120000,
+        "tax_minor": 12000,
+        "total_minor": 132000,
+        "policy": "Round each line to integer minor units, then tax on subtotal, ROUND_HALF_UP"
+      },
+      "html_sha256": "e264266111a78c763d260599ee43a2634b116ff330aad6efdae7909a79508f7f"
+    }
+  ],
+  "scope": "Arithmetic and source fields only; tax rules, contract terms and customer facts are not verified"
+}

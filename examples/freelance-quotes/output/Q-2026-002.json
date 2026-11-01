@@ -1,0 +1,35 @@
+{
+  "input": {
+    "id": "Q-2026-002",
+    "client": "Common Ground Practice",
+    "title": "Monthly website support — November 2026.",
+    "date": "2026-11-01",
+    "valid_until": "2026-11-22",
+    "currency": "AUD",
+    "tax_bps": 1000,
+    "terms": "Delivery within 10 business days of receiving the agreed inputs. Fictional example; tax rate is supplied, not inferred.",
+    "lines": [
+      {
+        "description": "Site updates and improvements",
+        "quantity": "4",
+        "unit_minor": 22500
+      },
+      {
+        "description": "Monthly support retainer",
+        "quantity": "1",
+        "unit_minor": 30000
+      }
+    ],
+    "total_minor": 132000
+  },
+  "calculated": {
+    "line_minor": [
+      90000,
+      30000
+    ],
+    "subtotal_minor": 120000,
+    "tax_minor": 12000,
+    "total_minor": 132000,
+    "policy": "Round each line to integer minor units, then tax on subtotal, ROUND_HALF_UP"
+  }
+}

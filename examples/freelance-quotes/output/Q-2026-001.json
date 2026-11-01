@@ -1,0 +1,41 @@
+{
+  "input": {
+    "id": "Q-2026-001",
+    "client": "North Pier Consulting",
+    "title": "Website redesign — discovery, design and handover.",
+    "date": "2026-11-01",
+    "valid_until": "2026-11-15",
+    "currency": "AUD",
+    "tax_bps": 1000,
+    "terms": "50% on acceptance; balance on delivery. Two revision rounds included. Scope changes require a revised quote. Fictional example only.",
+    "lines": [
+      {
+        "description": "Discovery and project scope",
+        "quantity": "1",
+        "unit_minor": 120000
+      },
+      {
+        "description": "Page design and implementation",
+        "quantity": "6",
+        "unit_minor": 18000
+      },
+      {
+        "description": "Handover and training",
+        "quantity": "1.5",
+        "unit_minor": 15000
+      }
+    ],
+    "total_minor": 275550
+  },
+  "calculated": {
+    "line_minor": [
+      120000,
+      108000,
+      22500
+    ],
+    "subtotal_minor": 250500,
+    "tax_minor": 25050,
+    "total_minor": 275550,
+    "policy": "Round each line to integer minor units, then tax on subtotal, ROUND_HALF_UP"
+  }
+}

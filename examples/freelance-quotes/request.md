@@ -1,0 +1,1 @@
+Prepare two editable quotes for the supplied clients. Use exactly the approved quantities, unit prices, 10% tax and terms. Independently check the supplied totals. Do not send either quote. This is a fictional service-studio example.
